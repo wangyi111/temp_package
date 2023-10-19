@@ -3,7 +3,9 @@ def test_name():
   assert True
 
 from example_package.example import monte_carlo_integration
+import random
 
+random.seed(42)
 
 def func(x):
     return x
